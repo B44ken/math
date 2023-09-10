@@ -6,7 +6,8 @@ let calculator = Desmos.GraphingCalculator(document.querySelector('.calculator')
     fontSize: 19
 })
 
-calculator.setExpressions(JSON.parse(decodeURIComponent(document.location.hash.slice(1,))).list)
+const hash = decodeURIComponent(document.location.hash.slice(1,))
+if (hash) calculator.setExpressions(JSON.parse(hash).list)
 
 const tabWidth = document.querySelector('.dcg-tab').offsetWidth
 
