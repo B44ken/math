@@ -1,0 +1,80 @@
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	overflow: hidden;
+	background: purple;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.calculator {
+	width: 100vw;
+	height: 100vh;
+}
+
+.dcg-noedit-branding {
+    display: none;
+}
+
+.dcg-mq-root-block::after, .dcg-new-expression-fade {
+    opacity: 0 !important;
+    background-color: transparent !important;
+}
+
+.save-button {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    cursor: pointer;
+}
+
+.save-button:active {
+    opacity: 0;
+}
+
+.dcg-calculator-api-container .dcg-exppanel .dcg-expressionitem .dcg-fade-container .dcg-main {
+    padding: 8px 53px;
+}
+
+.dcg-action-createslider {
+    display: none;
+}
+
+.dcg-expression-bottom.dcg-indent-in-folder.dcg-fadein-bottom {
+    height: 0 !important;
+}
+
+.dcg-evaluation-container {
+    position: relative;
+}
+
+.dcg-evaluation-container .dcg-evaluation {
+    position: absolute;
+    top: -30px;
+    right: 40px;
+}
+
+.save-box {
+    width: 80vw;
+    height: 80vh;
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    display: none;
+}
+
+/*
+DARK THEME
+.dcg-exppanel, .dcg-container {
+    background: #191919!important;
+    color: #fff !important;
+} 
+* {
+    color: #fff;
+}
+*/
